@@ -17,7 +17,7 @@
                         <li><NuxtLink to="/AideFinanciere">Aide financières</NuxtLink></li>
                         <li><NuxtLink to="/Recrutements">Récrutements</NuxtLink></li>
                         <li><NuxtLink to="/Tarifs">Tarifs</NuxtLink></li>
-                        <li><NuxtLink to="/NousContater">Nous contacer</NuxtLink></li>
+                        <li><NuxtLink to="/NousContacter">Nous contacter</NuxtLink></li>
                     </ul>
                 </b-col>
                 <b-col sm> <NuxtLogo/><SocialMediaNav/> </b-col>
