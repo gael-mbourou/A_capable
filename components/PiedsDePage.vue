@@ -11,8 +11,16 @@
                         <li><NuxtLink to="/Benevoles">Bénévoles</NuxtLink></li>
                     </ul>
                 </b-col>
-                <b-col sm><h5>Informations utiles</h5></b-col>
-                <b-col sm> <NuxtLogo/> </b-col>
+                <b-col sm>
+                    <h5>Informations utiles</h5>
+                    <ul>
+                        <li><NuxtLink to="/AideFinanciere">Aide financières</NuxtLink></li>
+                        <li><NuxtLink to="/Recrutements">Récrutements</NuxtLink></li>
+                        <li><NuxtLink to="/Tarifs">Tarifs</NuxtLink></li>
+                        <li><NuxtLink to="/NousContater">Nous contacer</NuxtLink></li>
+                    </ul>
+                </b-col>
+                <b-col sm> <NuxtLogo/><SocialMediaNav/> </b-col>
             </b-row>
         </b-container>
     </div>
@@ -20,6 +28,7 @@
 
 <script>
 import NuxtLogo from '../components/NuxtLogo.vue'
+import SocialMediaNav from '../components/block_contents/SocialMediaNav.vue'
     export default{
         name:'PiedsDePage',
         data(){
@@ -28,7 +37,8 @@ import NuxtLogo from '../components/NuxtLogo.vue'
             }
         },
         components:{
-            NuxtLogo
+            NuxtLogo,
+            SocialMediaNav,
         }
     }
 </script>
