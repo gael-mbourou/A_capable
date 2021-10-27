@@ -42,13 +42,15 @@
     </b-row>
     </div>
   </b-container><br/><br/><br/>
+  <PiedsDePage/>
   </div>
-  
+
 </template>
 
 <script>
 import TopNavBar from '../components/bar_de_navication/TopNavBar.vue'
 import TextLeft from '../components/block_contents/TextLeft.vue'
+import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Presentation',
   data(){
@@ -74,7 +76,8 @@ export default {
   },
   components:{
     TopNavBar,
-    TextLeft
+    TextLeft,
+    PiedsDePage
   }
 }
 </script>

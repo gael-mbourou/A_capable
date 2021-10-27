@@ -30,7 +30,7 @@
       </b-row>
       
     </b-container>
-
+  <PiedsDePage/>
   </div>
 </template>
 
@@ -39,6 +39,7 @@ import TopNavBar from '../components/bar_de_navication/TopNavBar.vue'
 import TextLeft from '../components/block_contents/TextLeft.vue'
 import ShortCard from '../components/block_contents/ShortCard.vue'
 import ListeContent from '../components/block_contents/ListeContent.vue'
+import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Benevoles',
   data(){
@@ -68,7 +69,8 @@ export default {
     TopNavBar,
     TextLeft,
     ShortCard,
-    ListeContent
+    ListeContent,
+    PiedsDePage,
   }
 }
 </script>

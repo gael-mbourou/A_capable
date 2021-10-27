@@ -40,6 +40,7 @@
     <div class="bottom-bloc">
     <TextLeft v-bind:Titre="TitreAutiste" v-bind:LienImage="LinkImgAutiste" v-bind:LienBouton="LinkBtn" v-bind:SousTitre="Subtitle" v-bind:TextBouton="TextBtn" v-bind:TextAltImg="alternatifText" ></TextLeft>
     </div>
+    <PiedsDePage/>
   </div>
 </template>
 
@@ -51,6 +52,7 @@ import TextLeft from '../components/block_contents/TextLeft.vue'
 import ModalBlock from '../components/block_contents/ModalBlock.vue'
 import Accordeon from '../components/block_contents/Accordeon.vue'
 import StepBySte2 from '../components/block_contents/StepByStep2.vue'
+import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Solutions',
   data(){
@@ -87,7 +89,8 @@ export default {
     ModalBlock,
     Accordeon,
     TextLeft,
-    StepBySte2
+    StepBySte2,
+    PiedsDePage,
   }
 }
 </script>
