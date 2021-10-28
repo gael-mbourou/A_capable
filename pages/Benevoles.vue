@@ -6,7 +6,7 @@
     </div>
 
     <b-container class="bv-example-row">
-      
+
         <b-row class="text-center1">
           <b-col></b-col>
           <b-col cols="5"><h2> {{Title2}} </h2></b-col>
@@ -28,7 +28,7 @@
         </b-col>
         <b-col></b-col>
       </b-row>
-      
+
     </b-container>
   <PiedsDePage/>
   </div>
@@ -42,8 +42,18 @@ import ListeContent from '../components/block_contents/ListeContent.vue'
 import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Benevoles',
+       head() {
+      // Configurer les méta tags pour cette page
+      return{
+        title:"Bénévoles d'association d'aide et accompagnement pour ausites",
+        meta:[
+          {name:"description",content:this.myDescription}
+        ],
+      }
+    },
   data(){
     return{
+      myDescription:"Les bénévoles de l'association capable sont véritablement engagé au quotidien des personnes avec trouble du spectre autistiques et personnes agées",
       cardsTab:[
         {CardTitre2:"L'amour",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Accueil.png"},
         {CardTitre2:"La bienveillance",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Presentation.png"},
@@ -57,9 +67,9 @@ export default {
       alternatifText:"Le bénévolat avec Association capable",
       TextBtn:"En savoir plus",
       LinkBtn:"#",
-     
+
       Textcontent:"Mesdames, Messieurs, REJOIGNEZ NOUS  dans cette œuvre de bienfaisance ! Il s\’agit d\’offrir son sourire qui ne coute rien mais qui crée beaucoup confirmant l\’assertion de Marc LEV qui dit : « le sourire est une sorte de vaccin contre l\’instant de mal être » La raison d’être de notre association est de tendre une main bienveillante à ceux qui ont été fragilisé par l\’âge, la maladie ou le handicap. Il est vrai et réel que « nul de nous ne vit pour lui-même ».",
-     
+
      Textcontent2:"Cette vérité biblique prouve au quotidien que tout ce que nous faisons est réalisé pour servir autrui. C\’est pourquoi, donnez un peu de votre temps ou de votre personne pour apporter  amabilité, gaité, joie, sourire à nos personnes accompagnées vous donnera en retour un sens à la vie qui est celui de porteur de bien-être.",
      Textcontent3:"Notre but dans cette lutte contre l’isolement des personnes dépendantes est d’être présent quand personne n’est là.",
 
