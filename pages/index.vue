@@ -4,7 +4,7 @@
     <div class="fdcolor">
           <TextLeft v-bind:Titre="Title1" v-bind:LienImage="LinkImg1" v-bind:LienBouton="LinkBtn1" v-bind:SousTitre="Subtitle1" v-bind:TextBouton="TextBtn1" v-bind:TextAltImg="alternatifText1" ></TextLeft>
     </div>
-    
+
     <WhyUs></WhyUs>
 
     <div class="about-association-capable">
@@ -23,15 +23,25 @@ import WhyUs from '../components/WhyUs.vue'
 import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'index',
+     head() {
+      // Configurer les méta tags pour cette page
+      return{
+        title:"Association pour autistes et personnes agées",
+                meta:[
+          {name:"description",content:this.myDescription}
+        ],
+      }
+    },
   data(){
     return{
+      myDescription:"Association capable est une association qui accompagne au quotidien des personnes atteint de troubles du spectre autistique et des des personnes agées.",
       LinkImg1:"https://gad-digital.com/wp-content/uploads/2021/09/Aide-et-accompagnement-des-autistes.png",
       Title1 :"Au quotidien des personnes avec trouble du spectre autisitique",
       Subtitle1:"Service d'aide et d'accompagnement à domicile",
       TextBtn1:"En savoir plus",
       LinkBtn1:"https://gad-digital.com",
       alternatifText1:"association capable",
-      
+
       LinkBtn2:"https://gad-digital.com",
       TextBtn2:"En savoir plus",
       Title2 :"Le rôle de l'association capable au service des personnes en difficulté",
