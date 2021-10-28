@@ -16,7 +16,7 @@
       <b-col></b-col>
     </b-row>
 
-    
+
   </b-container>
   <div class="demarche">
   <h2>{{DemarcheAccomagnment}} </h2><br/>
@@ -55,8 +55,19 @@ import StepBySte2 from '../components/block_contents/StepByStep2.vue'
 import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Solutions',
+       head() {
+      // Configurer les méta tags pour cette page
+      return{
+        title:"Solution d'association pour autistes et personnes agées",
+        meta:[
+          {name:"description",content:this.myDescription}
+        ],
+      }
+    },
   data(){
     return{
+       myDescription:"Association capable mets à votre disposition des solutions adaptés à vos besoins.",
+
       ModalBottonText:'En savoir plus',
 
       TitreAutiste:'Personnes avec troubles du spectre autistique et/ou associés',
