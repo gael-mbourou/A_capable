@@ -6,7 +6,7 @@
     </div>
   <b-container class="bv-example-row pt-5 bloc2">
   <h2>{{Title2}}</h2><br/>
-    <b-row> 
+    <b-row>
       <b-col></b-col>
       <b-col cols="9">{{Right}}
       </b-col>
@@ -17,7 +17,7 @@
       <b-container class="bv-example-row pt-5">
       <div>
       <h2 > {{Title3}} </h2>
-      <b-row> 
+      <b-row>
         <b-col >
           <b-list-group class="pt-3">
             <b-list-group-item>L’accompagnement des personnes avec troubles du spectre autistique</b-list-group-item>
@@ -53,8 +53,18 @@ import TextLeft from '../components/block_contents/TextLeft.vue'
 import PiedsDePage from '../components/PiedsDePage.vue'
 export default {
   name:'Presentation',
+       head() {
+      // Configurer les méta tags pour cette page
+      return{
+        title:"Ptésentation d'une Association pour autistes et personnes agées",
+         meta:[
+          {name:"description",content:this.myDescription}
+        ],
+      }
+    },
   data(){
     return{
+      myDescription:"Association capable est une association lois 1901 qui aide et accompagne accompagne au quotidien des personnes avec trouble du spectre autistique et personnes agées",
       LinkImg:"https://gad-digital.com/wp-content/uploads/2021/09/Suivi-des-personnes-havec-handicape.png",
       Title1 :"Nous contribuons à redonner espoire",
       Subtitle:"Service d'aide et d'accompagnement à domicile",
