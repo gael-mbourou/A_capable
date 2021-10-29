@@ -50,5 +50,6 @@ color:#ee7ae8;
 h1,p{
 text-align:center;
 }
+
 </style>
 

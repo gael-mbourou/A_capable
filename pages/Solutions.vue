@@ -131,7 +131,7 @@ h3{
 .demarche{
   padding-top:100px;
   padding-bottom:150px;
-  background-color:rgb(0 0 0 / 5%);
+  background-color:#fff;
 }
 .text-center p{
   text-align: justify;

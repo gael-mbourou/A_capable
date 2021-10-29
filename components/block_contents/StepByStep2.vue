@@ -19,12 +19,12 @@ import ShortCard from './ShortCard.vue'
     data(){
       return{
               cardsTab:[
-        {CardTitre2:"Accueil",CardContent2:"de la personne à accompagner ",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Accueil.png"},
-        {CardTitre2:"Présentation",CardContent2:"de l’association et de ses offres ",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Presentation.png"},
-        {CardTitre2:"Evaluation",CardContent2:"des besoins et attentes au domicile",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Evaluation.png"},
-        {CardTitre2:"Devis",CardContent2:"soumis à la validation de la personne à accompagner",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Devis.png"},
-        {CardTitre2:"Contrat",CardContent2:"de prestation signé par les deux parties",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Contrat.png"},
-        {CardTitre2:"Prise en charge",CardContent2:"de la personne à accompagner",CardSRC:"https://gad-digital.com/wp-content/uploads/2021/10/Accompagnement.png"},
+        {CardTitre2:"Accueil",CardContent2:"de la personne à accompagner ",CardSRC:"Accueil.png"},
+        {CardTitre2:"Présentation",CardContent2:"de l’association et de ses offres ",CardSRC:"Presentation.png"},
+        {CardTitre2:"Evaluation",CardContent2:"des besoins et attentes au domicile",CardSRC:"Evaluation.png"},
+        {CardTitre2:"Devis",CardContent2:"soumis à la validation de la personne à accompagner",CardSRC:"Devis.png"},
+        {CardTitre2:"Contrat",CardContent2:"de prestation signé par les deux parties",CardSRC:"Contrat.png"},
+        {CardTitre2:"Prise en charge",CardContent2:"de la personne à accompagner",CardSRC:"Accompagnement.png"},
       ],
       TitreH1:"Nous avons pensé à vous",
       SoutitreDuBLock:"mettre ici, une petite explication en rapport avec le titre du haut de manière cohérente "
