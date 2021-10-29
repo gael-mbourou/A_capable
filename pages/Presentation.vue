@@ -65,7 +65,7 @@ export default {
   data(){
     return{
       myDescription:"Association capable est une association lois 1901 qui aide et accompagne accompagne au quotidien des personnes avec trouble du spectre autistique et personnes agées",
-      LinkImg:"https://gad-digital.com/wp-content/uploads/2021/09/Suivi-des-personnes-havec-handicape.png",
+      LinkImg:"Suivi-des-personnes-havec-handicape.png",
       Title1 :"Nous contribuons à redonner espoire",
       Subtitle:"Service d'aide et d'accompagnement à domicile",
       TextBtn:"En savoir plus",

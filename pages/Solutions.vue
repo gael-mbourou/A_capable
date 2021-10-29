@@ -78,7 +78,7 @@ export default {
       pad:"Aide à domicile et à la personne",
       PersonnesAccomagnees:"Personnes dépendantes",
 
-      LinkImg:"https://gad-digital.com/wp-content/uploads/2021/09/Accomapgnement-au-quotidien-des-personnes-en-difficulte.png",
+      LinkImg:"Accomapgnement-au-quotidien-des-personnes-en-difficulte.png",
       Title :"Au quotidien des personnes avec trouble du spectre autisitique",
       Subtitle:"Service d'aide et d'accompagnement à domicile",
       TextBtn:"En savoir plus",
@@ -90,7 +90,7 @@ export default {
 
       Accompagnement:"Notre Intervention à domicile s’appuie tout d’abord sur une approche globale de la personne accompagnée ensuite sur un principe d’ajustement continu de la prestation à ses besoins et attentes. En vue d’offrir en permanence un service adapté aux besoins de la personne accompagnée et/ou sa famille, l’association s’engage à procéder à une évaluation des besoins exprimés, tout en proposant  une offre élaborée conjointement avec la personne accompagnée et/ou sa famille et à assurer la coordination avec d’autres structures et/ou professionnels intervenant au domicile. De plus, elle assure ainsi la transparence de son action pour la personne accompagnée et/ou sa famille. Elle veille également à la prévention des situations de maltraitance ou des situations pouvant mettre en danger la personne accompagnée.",
 
-      LinkImgAutiste:'https://gad-digital.com/wp-content/uploads/2021/09/Personnes-avec-troubles-du-spectre-autistique.png',
+      LinkImgAutiste:'Personnes-avec-troubles-du-spectre-autistique.png',
       DemarcheAccomagnment:'Une démarche qualité',
     }
   },
