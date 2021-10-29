@@ -1,5 +1,5 @@
 <template>
-  <b-card bg-variant="light" text-variant="dark" v-bind:title="CardTitre" class="card-hauteur">
+  <b-card :img-src="ImgSrc" img-top bg-variant="light" text-variant="dark" v-bind:title="CardTitre" class="card-hauteur">
     <b-card-text>
         {{CardContent}}
     </b-card-text>
@@ -12,7 +12,7 @@
 
 export default {
   name:'CardContent',
-  props:['CardTitre','CardContent','CardTextBouton']
+  props:['CardTitre','CardContent','CardTextBouton','ImgSrc']
 }
 </script>
 
@@ -27,6 +27,10 @@ export default {
 .card-text{
   font-size:14px;
   text-align:center;
+}
+h4 {
+    font-size: 18px;
+    text-align: center;
 }
 .card-body {
     flex: 1 1 auto;
