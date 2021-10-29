@@ -18,14 +18,8 @@
       <div>
       <h2 > {{Title3}} </h2>
       <b-row>
-        <b-col >
-          <b-list-group class="pt-3">
-            <b-list-group-item>L’accompagnement des personnes avec troubles du spectre autistique</b-list-group-item>
-            <b-list-group-item>La perte d’autonomie des personnes âgées et/ou personnes en situation de handicap</b-list-group-item>
-            <b-list-group-item>L’isolement des personnes âgées et/ou personnes en situation de handicap</b-list-group-item>
-            <b-list-group-item>Répit des aidants</b-list-group-item>
-            <b-list-group-item>La formation des aidants</b-list-group-item>
-          </b-list-group>
+        <b-col ><br/><br/>
+          <ListeContent2/>
         </b-col>
         <b-col><b-img :src="LinkImg2" fluid-grow alt="Fluid-grow image"></b-img></b-col>
       </b-row>
@@ -51,6 +45,7 @@
 import TopNavBar from '../components/bar_de_navication/TopNavBar.vue'
 import TextLeft from '../components/block_contents/TextLeft.vue'
 import PiedsDePage from '../components/PiedsDePage.vue'
+import ListeContent2 from '../components/block_contents/ListeContent2.vue'
 export default {
   name:'Presentation',
        head() {
@@ -71,7 +66,7 @@ export default {
       TextBtn:"En savoir plus",
       LinkBtn:"https://gad-digital.com",
       alternatifText:"Aide de personnes en difficulté",
-      LinkImg2:"https://cdn.pixabay.com/photo/2016/10/14/08/24/consulting-1739639_960_720.jpg",
+      LinkImg2:"Aide-à-domicile-pour-personnes-agées.png",
       Title2 :"Qui sommes-nous ?",
       Title3 :"Pourquoi nous solliciter ?",
       Title4 :"Notre battement de coeur",
@@ -87,7 +82,8 @@ export default {
   components:{
     TopNavBar,
     TextLeft,
-    PiedsDePage
+    PiedsDePage,
+    ListeContent2
   }
 }
 </script>
@@ -101,7 +97,7 @@ background-color:#364182;
   margin-bottom:100px;
 }
 .bgc-bloc3{
-  background-color:grey;
+  background-color:#e3e5f2;
   padding-top:0px;
   padding-bottom:80px;
 }
