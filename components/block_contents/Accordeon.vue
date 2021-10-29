@@ -86,3 +86,16 @@
     }
   }
 </script>
+
+<style>
+.btn-info:hover {
+    color: #fff;
+    background-color: #364182;
+    border-color: none;
+}
+.btn-info {
+    color: #fff;
+    background-color: #364182;
+    border-color: #117a8b;
+}
+</style>
