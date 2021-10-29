@@ -125,12 +125,12 @@ h3{
   font-size:22px;
 }
 .padding-bloc{
-  padding-top:80px;
+  padding-top:0px;
   padding-bottom:80px;
 }
 .demarche{
   padding-top:100px;
-  padding-bottom:150px;
+  padding-bottom:50px;
   background-color:#fff;
 }
 .text-center p{

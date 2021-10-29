@@ -27,7 +27,7 @@
       </b-container>
     </div>
 
-    <b-container class="bv-example-row pt-5">
+    <b-container class="bv-example-row pt-1">
     <div class="bloc4">
     <h2> {{Title4}} </h2>
     <b-row >
@@ -94,7 +94,7 @@ background-color:#364182;
 }
 .bloc2, .bloc3, .bloc4{
   margin-top:50px;
-  margin-bottom:100px;
+  margin-bottom:50px;
 }
 .bgc-bloc3{
   background-color:#e3e5f2;
